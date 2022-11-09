@@ -1034,6 +1034,7 @@ header svg#rect-m{
 .message {
     position: relative;
     width: 100%;
+    min-width: 200px;
     height: 100%;
     color: #00b7ff;
     text-align: center;
@@ -1044,6 +1045,7 @@ header svg#rect-m{
     top: 10%;
     left: 0%;
     width: 100%;
+    min-width: 200px;
     white-space: nowrap;
     font-size: 9vw;
     font-size: 15vw;
