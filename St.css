@@ -1,6 +1,5 @@
 * {
     max-width: 100vw;
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1031,8 +1030,6 @@ header svg#rect-m{
 .delay-95 {
     animation-delay: 0.85s;
 }
-
-
 
 .message {
     position: relative;

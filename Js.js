@@ -91,29 +91,29 @@ window.addEventListener('scroll',() => {
         contentExpOne.classList.remove(`activateT`);
         contentExpTwo.forEach(expTwo => expTwo.classList.remove(`activateT`));
         contentExpThree.classList.remove(`activateT`);
-        contentExpFour.classList.remove(`activateL`);
-        contentExpFive.classList.remove(`activateP`);
+        contentExpFour.classList.remove(`activateH`);
+        contentExpFive.classList.remove(`activateH`);
         contentExpSix.classList.remove(`activateH`);
         aExp.classList.remove(`activec`);
     }
     if((zkusenostiPos + 800) < screenPos){
         contentExpThree.classList.add(`activateT`);
-        contentExpFour.classList.add(`activateL`);
-        contentExpFive.classList.add(`activateP`);
+        contentExpFour.classList.add(`activateH`);
+        contentExpFive.classList.add(`activateH`);
         contentExpSix.classList.add(`activateH`);
     }
     if((projektyPos + 200) < screenPos){
         aExp.classList.remove(`activec`);
         contentPro.classList.add(`activateH`);
-        contentProOne.classList.add(`activateL`);
+        contentProOne.classList.add(`activateH`);
         contentProTwo.classList.add(`activateH`);
-        contentProThree.classList.add(`activateP`);
+        contentProThree.classList.add(`activateH`);
         aPro.classList.add(`activec`);
     } else {
         contentPro.classList.remove(`activateH`);
-        contentProOne.classList.remove(`activateL`);
+        contentProOne.classList.remove(`activateH`);
         contentProTwo.classList.remove(`activateH`);
-        contentProThree.classList.remove(`activateP`);
+        contentProThree.classList.remove(`activateH`);
         aPro.classList.remove(`activec`);
     }
     if((contactPos + 200) < screenPos){
