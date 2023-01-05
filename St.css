@@ -233,7 +233,8 @@ header svg#rect-m{
 }
 
 .crt {
-    animation: textShadow 1.6s infinite;
+  user-select: none;
+  animation: textShadow 1.6s infinite;
 }
 
 @keyframes textShadow {
