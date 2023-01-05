@@ -1025,10 +1025,16 @@ header svg#rect-m{
     animation-delay: 0.85s;
 }
 .delay-9 {
-    animation-delay: 0.85s;
+    animation-delay: 0.9s;
 }
 .delay-95 {
-    animation-delay: 0.85s;
+    animation-delay: 0.95s;
+}
+.delay-10 {
+    animation-delay: 1s;
+}
+.delay-105 {
+    animation-delay: 1.05s;
 }
 
 .message {
