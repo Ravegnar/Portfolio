@@ -127,3 +127,14 @@ window.addEventListener('scroll',() => {
         aContact.classList.remove(`activec`);
     }
 })
+
+  function preloadImage(url) {
+    const img = new Image();
+    img.src = url;
+  }
+  
+  const image1Url = 'O/BG-3.png';
+  const image2Url = 'O/V3.png';
+  
+  preloadImage(image1Url);
+  preloadImage(image2Url);
