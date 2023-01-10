@@ -448,6 +448,7 @@ header svg#rect-m{
     position: relative;
     filter: drop-shadow(0px 0px 0px #8900c9);
     min-width: 220px;
+    max-width: 500px;
     height: 400px;
     transform: scale(0.9);
     transition: 0.4s;
@@ -1184,4 +1185,71 @@ header svg#rect-m{
       -webkit-filter: hue-rotate(10deg);
               filter: hue-rotate(10deg);
   }
+}
+
+.skill-body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 660px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+/*
+.skill {
+  background-image: url("O/WW7.jpg");
+  background-position: left;
+}
+*/
+.skill {
+  position: relative;
+}
+.skill:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("O/WW7.jpg");
+  background-position: left;
+  clip-path: polygon(0 16.00px,16.00px 0,calc(100% - 16.00px) 0,100% 16.00px,100% calc(100% - 16.00px),calc(100% - 16.00px) 100%,16.00px 100%,0 calc(100% - 16.00px),0 16.00px,4px  calc(16.00px + 1.66px),4px calc(100% - 16.00px - 1.66px),calc(16.00px + 1.66px) calc(100% - 4px),calc(100% - 16.00px - 1.66px) calc(100% - 4px),calc(100% - 4px) calc(100% - 16.00px - 1.66px),calc(100% - 4px) calc(16.00px + 1.66px),calc(100% - 16.00px - 1.66px) 4px,calc(16.00px + 1.66px) 4px,4px calc(16.00px + 1.66px));
+  filter: grayscale(1);
+}
+
+.skill img {
+  max-width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div1 { grid-area: 1 / 5 / 2 / 6; }
+.div2 { grid-area: 1 / 7 / 2 / 8; }
+.div3 { grid-area: 3 / 3 / 4 / 4; }
+.div4 { grid-area: 3 / 7 / 4 / 8; }
+.div5 { grid-area: 3 / 9 / 4 / 10; }
+.div6 { grid-area: 5 / 1 / 6 / 2; }
+.div7 { grid-area: 5 / 3 / 6 / 4; }
+.div8 { grid-area: 5 / 5 / 6 / 6; }
+.div9 { grid-area: 5 / 7 / 6 / 8; }
+.div10 { grid-area: 7 / 1 / 8 / 2; }
+.div11 { grid-area: 7 / 3 / 8 / 4; }
+.div12 { grid-area: 7 / 7 / 8 / 8; }
+
+.div13 { grid-area: 1 / 6 / 2 / 7; }
+.div14 { grid-area: 2 / 4 / 3 / 5; }
+.div15 { grid-area: 2 / 6 / 3 / 7; }
+.div16 { grid-area: 3 / 8 / 4 / 9; }
+.div17 { grid-area: 4 / 2 / 5 / 3; }
+.div18 { grid-area: 4 / 3 / 5 / 4; }
+.div19 { grid-area: 4 / 4 / 5 / 5; }
+.div20 { grid-area: 6 / 1 / 7 / 2; }
+.div21 { grid-area: 6 / 3 / 7 / 4; }
+.div22 { grid-area: 6 / 7 / 7 / 8; }
+.div23 { grid-area: 4 / 7 / 5 / 8; }
+
+.containers {
+  max-width: 1560px;
+  margin-left: auto;
+  margin-right: auto;
 }
